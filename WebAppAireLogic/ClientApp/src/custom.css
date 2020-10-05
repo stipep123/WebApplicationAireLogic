@@ -12,3 +12,39 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.header-text {
+    margin-top: 20px;
+    color: white;
+    border: double;
+    text-align: center;
+    outline: dotted;
+    outline-color: whitesmoke;
+    font-family: Britannic, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.div-outline {
+    display: block;
+    align-self:center;
+    text-align: center;
+    border-style: double;
+    border-width: 4px;
+    border-color: palevioletred;
+    font-family: Arial, Times, serif, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color : white;
+    margin-top: 175px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+    opacity: 0.8;
+}
+
+.bg {
+    background-image : url(bg.jpg);
+    height: auto;
+    background-position: top,left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

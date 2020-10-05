@@ -10,6 +10,6 @@ namespace WebAppAireLogic.Entities
         public long Id { get; set; }
         public string Name { get; set; }
         public int Year { get; set; }
-        public IList<Song> Songs { get; set; }
+        public virtual IList<Song> Songs { get; set; }
     }
 }
